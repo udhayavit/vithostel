@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "360365294493",
+    "firebase_url": "https://logindemo1-c007f.firebaseio.com",
+    "project_id": "logindemo1-c007f",
+    "storage_bucket": "logindemo1-c007f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360365294493:android:95ca6779348285c0",
+        "android_client_info": {
+          "package_name": "com.example.udhaya.logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360365294493-bo3s9trat8gukot3iv8gf5gtqvno7j5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrrroeawv9Rcad4GTBUTbThku440zINGI"
+        },
+        {
+          "current_key": "AIzaSyCrrroeawv9Rcad4GTBUTbThku440zINGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

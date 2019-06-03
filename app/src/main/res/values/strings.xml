@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VIT HUT</string>
+    <string name="Contact">Contact
+Director of student welfare--->
+108, First Floor Main Block
+VIT
+Vellore,
+Tamil Nadu - 632014
++(91) 416 220 2273</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email ID</string>
+    <string name="login">Login</string>
+    <string name="new_user_signup">New User? SignUp!</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="todo">TODO</string>
+    <string name="enter_the_weight">Enter the Weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="rupee">₹</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbb"
+
+    tools:context="com.example.udhaya.logindemo.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/room_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Room Details"
+
+            />
+
+        <Button
+            android:id="@+id/supervisor_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Supervisor Info" />
+
+        <Button
+            android:id="@+id/hostelaff_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Hostel Affidavite"
+            />
+
+        <Button
+            android:id="@+id/sports_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            />
+
+        <Button
+            android:id="@+id/health_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Health Center" />
+
+        <Button
+            android:id="@+id/others"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Other Amenities"
+            />
+
+        <Button
+            android:id="@+id/photos_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Photo Gallery"
+            />
+
+        <Button
+            android:id="@+id/leave_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Leave Letter"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

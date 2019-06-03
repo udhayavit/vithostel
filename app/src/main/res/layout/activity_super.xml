@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbb"
+    tools:context="com.example.udhaya.logindemo.SuperActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deputy Director, Men's Hostel"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="	Prof. S. Prabakar
+Email-id : dydirector.mh@vit.ac.in
+Phone No : 0416 - 220 5999"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Chief Warden, Men’s Hostels"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="	Prof. Naga Venkata Raghuram J
+Email-id : cw.mh@vit.ac.in
+Phone No : 0416 – 220 2127"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Associate Chief Warden, Men’s Hostels"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof. M. Shiva Shankar
+Email-id : acw.mh@vit.ac.in
+Phone No : 0416 – 220 2186"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warden (Attendance)"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="	Prof. R. Mohanasundaram
+Email-id : warden.attendance@vit.ac.in
+Mobile No : 98948 20008"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warden (Discipline)"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="	Prof. S. Sivakumar
+Email-id : warden.discipline@vit.ac.in
+Mobile No : 94880 31764"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warden (Food)"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof. A. Sathiavelu
+Email-id : warden.food@vit.ac.in
+Mobile No : 94434 57024"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warden (Events)"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prof. Navin Kumar
+Email-id : warden.events@vit.ac.in
+Mobile No : 8124496533"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hostel Superintendent"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr . R. Pathy
+Email-id: pathy.r@vit.ac.in
+Phone No.: 0416 - 2202917"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hostel Manager, Men’s Hostels"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. Ravichandran K
+Email-id : ravichandran.k@vit.ac.in
+Mobile No:8940302888 and 9894096773"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men’s Hostel Office Staff"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. K. Yugendar / Mr. N. Chidambaram
+Mr. S. Ramalingam / Mr. B. Rajasekar
+Phone No : 0416 - 220 2633"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men’s Hostel Office"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Supervisor's (24 hours X 7 days)
+Phone No : 0416 - 220 2028"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men’s Hostel Office Security"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="	Security Guard (24 hours X 7 days)
+Phone No : 0416 - 220 2528"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbb"
+    tools:context="com.example.udhaya.logindemo.OtherActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eateries"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/eat"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/texView"
+        android:text="VIT is foodies paradise with eateries located across the university campus. These serve wholesome cuisine for the health counsiousness and fast food for those intended in a quick bite between classes. \n"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Mart"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/allmart"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="All Mart is a multi-purpose shopping mall spread over 3000 square feet. It stocks a variety of student needs from food to mattresses, clothing and accessories to greeting cards. Students and faculty also have access to a tailoring facility on campus. \n"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banks and ATMs"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/banks"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="VIT has setup multiple ATM's of sevelral different banks across the university. These are statergicaly located for easy access by out students. \n"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="549dp"
+        android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+</ScrollView>
